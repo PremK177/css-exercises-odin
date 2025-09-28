@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+div {
+  padding: 5px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -66,4 +70,20 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-most {
+  display: flex;
+  justify-content: space-between;
 }
